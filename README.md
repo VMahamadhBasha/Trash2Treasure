@@ -60,7 +60,9 @@ The project consists of three main modules:
 ## 🗂️ Project Structure
 
 The **Trash2Treasure** project is organized into multiple modules to ensure scalability, maintainability, and ease of contribution. Below is the complete directory structure with a brief explanation of each folder and file.
----
+
+
+```
 trash2treasure/
 │
 ├── frontend/                     # Citizen Web Application
@@ -127,7 +129,7 @@ trash2treasure/
 ├── CONTRIBUTING.md
 ├── CODE_OF_CONDUCT.md
 └── LICENSE
-
+```
 ---
 
 ## 🛠️ Technologies Used
