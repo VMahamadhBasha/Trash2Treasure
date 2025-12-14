@@ -58,31 +58,36 @@ The project consists of three main modules:
 ---
 
 ## 🗂️ Project Structure
+
+The **Trash2Treasure** project is organized into multiple modules to ensure scalability, maintainability, and ease of contribution. Below is the complete directory structure with a brief explanation of each folder and file.
+
+
+```
 trash2treasure/
 │
-├── frontend/                     # Citizen Web App
+├── frontend/                     # Citizen Web Application
 │   ├── public/
-│   │   └── index.html
+│   │   └── index.html            # Main HTML entry point
 │   ├── src/
-│   │   ├── components/
+│   │   ├── components/           # Reusable UI components
 │   │   │   ├── Navbar.jsx
 │   │   │   ├── Footer.jsx
-│   │   │   ├── UploadForm.jsx
-│   │   │   └── ReportCard.jsx
-│   │   ├── pages/
+│   │   │   ├── UploadForm.jsx    # Upload image & report form
+│   │   │   └── ReportCard.jsx    # Display complaint info
+│   │   ├── pages/                # Application pages
 │   │   │   ├── Home.jsx
 │   │   │   ├── Report.jsx
 │   │   │   ├── Login.jsx
 │   │   │   └── Register.jsx
 │   │   ├── services/
-│   │   │   └── api.js
+│   │   │   └── api.js            # API communication layer
 │   │   ├── styles/
-│   │   │   └── main.css
-│   │   ├── App.jsx
-│   │   └── main.jsx
+│   │   │   └── main.css          # Global styles
+│   │   ├── App.jsx               # Root component
+│   │   └── main.jsx              # React DOM entry
 │   └── package.json
 │
-├── admin-dashboard/              # Municipal Dashboard
+├── admin-dashboard/              # Municipal Authority Panel
 │   ├── src/
 │   │   ├── components/
 │   │   │   ├── Sidebar.jsx
@@ -93,28 +98,28 @@ trash2treasure/
 │   │   │   ├── Complaints.jsx
 │   │   │   └── Analytics.jsx
 │   │   ├── services/
-│   │   │   └── adminApi.js
+│   │   │   └── adminApi.js       # Admin API calls
 │   │   └── App.jsx
 │   └── package.json
 │
-├── backend/                      # Server & APIs
-│   ├── controllers/
+├── backend/                      # Server & REST APIs
+│   ├── controllers/              # Business logic
 │   │   ├── authController.js
 │   │   └── reportController.js
-│   ├── models/
+│   ├── models/                   # Database schemas
 │   │   ├── User.js
 │   │   └── Report.js
-│   ├── routes/
+│   ├── routes/                   # API routes
 │   │   ├── authRoutes.js
 │   │   └── reportRoutes.js
-│   ├── middleware/
+│   ├── middleware/               # Authentication & validation
 │   │   └── authMiddleware.js
 │   ├── config/
-│   │   └── db.js
-│   ├── server.js
+│   │   └── db.js                 # Database connection
+│   ├── server.js                 # Application entry point
 │   └── package.json
 │
-├── docs/
+├── docs/                         # Project documentation
 │   ├── architecture.md
 │   ├── api-docs.md
 │   └── setup-guide.md
@@ -124,8 +129,7 @@ trash2treasure/
 ├── CONTRIBUTING.md
 ├── CODE_OF_CONDUCT.md
 └── LICENSE
-
-
+```
 ---
 
 ## 🛠️ Technologies Used
