@@ -153,6 +153,11 @@ trash2treasure/
 ---
 
 ## ⚙️ Installation & Setup
+---
+
+### 🧑‍💻 Contributor Note
+Please ensure **MongoDB** is running locally before starting the backend server.
+
 
 ### Prerequisites
 - Node.js (v14 or above)
